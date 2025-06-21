@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "During the synthesis of aspirin, what is the byproduct?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "acetic anhydride",
+        "b": "Phosphoric acid",
+        "c": "acetic acid",
+        "d": "Salicylic acid"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Used as a reagent, not a byproduct.",
+        "b": "Used as a catalyst in some processes.",
+        "c": "Correct – formed when acetic anhydride reacts with salicylic acid.",
+        "d": "Reactant, not a byproduct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Molecular formula of aspirin is --------------",
+      "answers": {
+        "a": "C₉H₈O₄",
+        "b": "C₇H₆O₂",
+        "c": "C₈H₆O₄",
+        "d": "C₉H₁₀O₄"
+      },
+      "explanations": {
+        "a": "Correct – this is the molecular formula of aspirin.",
+        "b": "Incorrect – this is for benzoic acid.",
+        "c": "Incorrect formula.",
+        "d": "Incorrect – contains too many hydrogens."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Aspirin is commercially synthesized using a two-step process known as ----------",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Kolbe-Schmitt Reaction",
+        "b": "School Reaction",
+        "c": "Clemmensen Reaction",
+        "d": "Wolff-Kishner Reduction"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct – this method is used to prepare salicylic acid, a precursor to aspirin.",
+        "b": "No known reaction by this name.",
+        "c": "Used for reducing ketones to alkanes.",
+        "d": "Used for reduction of carbonyls, not related to aspirin."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
