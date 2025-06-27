@@ -7,26 +7,7 @@
 </head>
 <body>
 
-<script>
-  // Get the base path dynamically
-  const currentUrl = window.location.href;
-  const basePath = currentUrl.substring(0, currentUrl.lastIndexOf("/"));
-  const swfPath = basePath + "/simulation/flash/simulation/index.swf";
 
-  // Set the dynamic link text
-  document.getElementById("copyText").textContent = swfPath;
-
-  // Copy to clipboard function
-  function copyLink() {
-    const text = document.getElementById("copyText").textContent;
-    navigator.clipboard.writeText(text).then(() => {
-      document.getElementById("tooltip").style.display = "inline";
-      setTimeout(() => {
-        document.getElementById("tooltip").style.display = "none";
-      }, 1000);
-    });
-  }
-</script>
 
 
 <div class="download-section" style="text-align: center;">
